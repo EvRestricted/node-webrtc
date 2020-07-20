@@ -323,7 +323,6 @@ set(node_addon_api_dir ${CMAKE_SOURCE_DIR}/node_modules/node-addon-api)
 # is to include all the header files here.
 target_include_directories(${MODULE} SYSTEM PRIVATE
   ${node_addon_api_dir}/..
-  ${node_addon_api_dir}
   ${libwebrtc_source_dir}
   ${libwebrtc_source_dir}/webrtc
   ${libwebrtc_source_dir}/webrtc/third_party/abseil-cpp

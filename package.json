@@ -1,5 +1,5 @@
 {
-  "name": "wrtc-ev-h264",
+  "name": "wrtc",
   "private": true,
   "description": "Standards-compliant WebRTC implementation for Node",
   "keywords": [

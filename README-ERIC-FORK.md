@@ -9,9 +9,10 @@ node-webrtc is not distributed with H.264 support. You would have to build from 
 
 2/ Force build from source in scripts/download-prebuilt-or-build-from-source.js
 
-3/ Package.json    "name": "wrtc-ev-h264",
 
-Note: use --unsafe-perm to install!
+Notes:
+	*  use --unsafe-perm to install!
+	* in Package.json  KEEP "name": "wrtc"  otw the compilation fails
 
 
 ```

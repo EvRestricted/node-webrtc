@@ -6,7 +6,8 @@ const build = require('./build-from-source');
 const download = require('./download-prebuilt');
 
 function main() {
-  if (!process.env.SKIP_DOWNLOAD) {
+  // Eric change: disable download, force build from source
+  if (false && !process.env.SKIP_DOWNLOAD) {
     try {
       console.log('Searching for a pre-built wrtc binary');
       download();
